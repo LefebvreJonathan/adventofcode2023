@@ -1,3 +1,2 @@
-*/nodes_modules
-*/yarn-errors.log
+*/*/node_modules/
 */*.log
