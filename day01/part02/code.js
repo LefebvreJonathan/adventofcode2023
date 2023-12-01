@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-const FILE_PATH = "./input.txt"
+const FILE_PATH = "../input.txt"
 const WORDS_NUMBERS = [
     'zero',
     'one',
