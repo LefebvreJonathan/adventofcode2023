@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/jonathanlefebvre/.nvm/versions/node/v16.14.0/bin/node /usr/local/bin/yarn add node:fs
+
+PATH: 
+  /Users/jonathanlefebvre/.pyenv/shims:/Users/jonathanlefebvre/.rbenv/shims:/usr/local/opt/mysql-client/bin:/Users/jonathanlefebvre/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jonathanlefebvre/.pyenv/shims:/Users/jonathanlefebvre/.rbenv/shims:/usr/local/opt/mysql-client/bin:/Users/jonathanlefebvre/.nvm/versions/node/v16.14.0/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: node:fs: Invalid protocol: node:
+      at Request.module.exports.Request.init (/usr/local/lib/node_modules/yarn/lib/cli.js:140931:31)
+      at new Request (/usr/local/lib/node_modules/yarn/lib/cli.js:140604:8)
+      at request (/usr/local/lib/node_modules/yarn/lib/cli.js:136804:10)
+      at RequestManager.execute (/usr/local/lib/node_modules/yarn/lib/cli.js:67040:15)
+      at RequestManager.shiftQueue (/usr/local/lib/node_modules/yarn/lib/cli.js:67078:10)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:66747:13
+      at new Promise (<anonymous>)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at RequestManager.request (/usr/local/lib/node_modules/yarn/lib/cli.js:66745:19)
+      at NpmRegistry.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "day01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "code.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
